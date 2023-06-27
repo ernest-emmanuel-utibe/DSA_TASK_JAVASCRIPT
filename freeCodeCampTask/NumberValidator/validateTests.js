@@ -24,7 +24,7 @@
         expect(telephoneCheck("+44 1234 567890")).toBe(false);
     });
 
-    // Tests that the function returns true for a valid phone number with extra spaces or dashes. 
+    
     it("test_phone_number_with_extra_spaces_or_dashes", () => {
         expect(telephoneCheck("1 555 - 555 - 5555")).toBe(true);
     });
